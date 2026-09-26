@@ -1,0 +1,15 @@
+name: component-linter
+description: Lint Unity C# scripts for single-responsibility separation and serialized parameter declarations.
+input_schema:
+  type: object
+  properties:
+    script_content:
+      type: string
+      description: Unity C# script body to analyze.
+    component_type:
+      type: string
+      enum: [movement, input, audio, animation, manager]
+      description: Target component functional category.
+  required:
+    - script_content
+    - component_type

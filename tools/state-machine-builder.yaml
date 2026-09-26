@@ -1,0 +1,21 @@
+name: state-machine-builder
+description: Construct finite state machine transitions and condition evaluations for 2D platformer entities.
+input_schema:
+  type: object
+  properties:
+    entity_name:
+      type: string
+      description: Name of character or enemy entity.
+    states:
+      type: array
+      items:
+        type: string
+      description: List of state names (e.g. Idle, Run, Jump, Fall, Hurt).
+    transitions:
+      type: array
+      items:
+        type: object
+      description: List of valid transitions between states.
+  required:
+    - entity_name
+    - states

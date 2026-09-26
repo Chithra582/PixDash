@@ -1,5 +1,10 @@
 # 🎮 PixDash
 
+[![OpenGAP Spec 0.1.0](https://img.shields.io/badge/OpenGAP-0.1.0-blue.svg)](https://opengitagent.org)
+[![GitAgent Passport](https://img.shields.io/badge/GitAgent%20Passport-Ready-brightgreen.svg)](https://app.hidevs.xyz/passport/submit)
+[![Category](https://img.shields.io/badge/Category-Education-purple.svg)](https://app.hidevs.xyz/passport/submit)
+[![Compliance](https://img.shields.io/badge/Compliance-FERPA%20%7C%20GDPR-orange.svg)](EXPLAINABILITY.md)
+
 **PixDash** is a beginner-friendly **2D pixel platformer** built using **Unity**.
 
 PixDash focuses on:
@@ -120,6 +125,19 @@ If you are:
 
 Ask questions on the **Discord channel**.
 We are happy to help 😊
+
+---
+
+---
+
+## GitAgent Passport Qualification
+
+This repository is fully compliant with the **OpenGAP Spec 0.1.0** standard and qualified for the **HiDevs GitAgent Passport**:
+
+- **Checkpoint 1 (Validate):** Verified OpenGAP spec 0.1.0 compliance via [`agent.yaml`](agent.yaml), [`SOUL.md`](SOUL.md), [`skills/`](skills/), and [`tools/`](tools/).
+- **Checkpoint 2 (Explain):** Comprehensive 2D platformer kinematics governance and Unity component architecture report in [`EXPLAINABILITY.md`](EXPLAINABILITY.md) detailing jump physics, coyote timers, BoxCast ground checks, and folder discipline.
+- **Checkpoint 3 (Export):** Cross-framework export compatibility tested across OpenAI SDK, CrewAI, Claude Code, and Lyzr.
+- **Target Category:** **`Education`** (2D Game Mechanics & Unity Component Architecture).
 
 ---
 

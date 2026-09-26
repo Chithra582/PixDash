@@ -1,0 +1,13 @@
+name: scene-hierarchy-checker
+description: Validate Unity scene game object hierarchies and prefab folder locations against PixDash standards.
+input_schema:
+  type: object
+  properties:
+    asset_path:
+      type: string
+      description: Unity asset path (e.g. Assets/_Project/Prefabs/Player.prefab).
+    has_rigidbody:
+      type: boolean
+      description: Flag indicating if entity requires Rigidbody2D constraints.
+  required:
+    - asset_path

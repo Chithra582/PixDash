@@ -1,0 +1,17 @@
+name: physics-evaluator
+description: Calculate jump heights, gravity scaling factors, and terminal velocities for 2D platformer kinematics.
+input_schema:
+  type: object
+  properties:
+    jump_height_units:
+      type: number
+      description: Target jump height in Unity world units.
+    time_to_apex_seconds:
+      type: number
+      description: Target time to reach jump apex in seconds.
+    fall_gravity_multiplier:
+      type: number
+      description: Multiplier applied to gravity scale while descending.
+  required:
+    - jump_height_units
+    - time_to_apex_seconds
